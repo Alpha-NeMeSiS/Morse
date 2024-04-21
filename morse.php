@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <title>code morse</title>
+    <a href="https://alpha-nemesis.github.io/morse/"></a>
 </head>
 
 <body>
