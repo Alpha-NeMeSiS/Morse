@@ -17,6 +17,7 @@
             <label>morse to phrase</label>
             <textarea type="text" name="morse"></textarea>
             <br /><br />
+            <h1>slt code<h1/>
             <p>slt code</p>
             <input type="submit" value="codage">
             <input type="submit" value="décodage">
