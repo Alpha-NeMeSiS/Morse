@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-
 
 <head>
     <meta charset="UTF-8">
@@ -7,15 +7,14 @@
     <title>code morse</title>
 </head>
 
-
 <body>
     <form method="POST">
         <fieldset>
             <legend></legend>
             <label>phrase to morse</label>
-            <input type="text" name="texte">
+            <textarea type="text" name="texte"></textarea> 
             <label>morse to phrase</label>
-            <input type="text" name="morse">
+            <textarea type="text" name="morse"></textarea>
             <br /><br />
             <input type="submit" value="codage">
             <input type="submit" value="décodage">
@@ -24,9 +23,7 @@
     <br />
 </body>
 
-
 </html>
-
 <?php
 define('NB', 37);
 class tmorse
@@ -243,6 +240,4 @@ if (isset($_POST['texte']) && !empty($_POST['texte'])) {
     }
     echo $wsymbole;
 }
-
-
 ?>
