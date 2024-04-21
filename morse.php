@@ -27,7 +27,6 @@
 
 </html>
 <?php
-/*
 define('NB', 37);
 class tmorse
 {
@@ -243,4 +242,4 @@ if (isset($_POST['texte']) && !empty($_POST['texte'])) {
     }
     echo $wsymbole;
 }
-?>*/
+?>
